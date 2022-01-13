@@ -8,7 +8,7 @@ Vue.use(VueRouter);
 const router = new VueRouter({ // eslint-disable-line no-unused-vars
   mode: "history",
   routes: [
-    { path: "/", component: Home },
+    { path: "/", component: Home, props: true },
     { path: "/about", component: About }
   ]
 });
